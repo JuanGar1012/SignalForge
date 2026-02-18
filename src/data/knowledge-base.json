@@ -1,0 +1,47 @@
+[
+  {
+    "id": "kb-validation",
+    "title": "API Validation",
+    "content": "API boundary validation blocks malformed requests early, reduces unsafe states, and improves deterministic behavior in distributed systems."
+  },
+  {
+    "id": "kb-health",
+    "title": "Health Checks",
+    "content": "Health check endpoints provide fast service status verification for deployments, load balancers, and uptime monitors."
+  },
+  {
+    "id": "kb-determinism",
+    "title": "Deterministic AI Settings",
+    "content": "Deterministic AI behavior is improved by fixed prompts and settings such as temperature zero and top_p one, reducing output variance."
+  },
+  {
+    "id": "kb-authz",
+    "title": "Authorization",
+    "content": "Server enforced authorization prevents users from invoking protected actions without a validated session and role checks."
+  },
+  {
+    "id": "kb-observability",
+    "title": "Observability",
+    "content": "Observability combines logs, metrics, and traces so teams can diagnose failures and performance regressions quickly."
+  },
+  {
+    "id": "kb-secrets",
+    "title": "Secrets Management",
+    "content": "Secrets must be stored in environment variables or secret managers, never committed to code or logs."
+  },
+  {
+    "id": "kb-ci",
+    "title": "Continuous Integration",
+    "content": "Continuous integration runs lint test and build checks on each change, raising release confidence and preventing regressions."
+  },
+  {
+    "id": "kb-retrieval",
+    "title": "Retrieval and Citations",
+    "content": "Retrieval augments responses by injecting relevant source context and citations, improving factual grounding and auditability."
+  },
+  {
+    "id": "kb-slices",
+    "title": "Vertical Slices",
+    "content": "Vertical slices deliver small end to end functionality increments quickly, balancing speed and reliability through iterative hardening."
+  }
+]

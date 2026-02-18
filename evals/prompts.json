@@ -1,0 +1,62 @@
+[
+  {
+    "id": "e01",
+    "prompt": "Why is API request validation important?",
+    "expected_citation": "kb-validation",
+    "required_output_terms": ["validation", "source:kb-validation"]
+  },
+  {
+    "id": "e02",
+    "prompt": "What are health checks used for in deployment?",
+    "expected_citation": "kb-health",
+    "required_output_terms": ["health", "source:kb-health"]
+  },
+  {
+    "id": "e03",
+    "prompt": "How do we make AI output deterministic?",
+    "expected_citation": "kb-determinism",
+    "required_output_terms": ["temperature", "source:kb-determinism"]
+  },
+  {
+    "id": "e04",
+    "prompt": "Why do protected actions need authorization checks?",
+    "expected_citation": "kb-authz",
+    "required_output_terms": ["authorization", "source:kb-authz"]
+  },
+  {
+    "id": "e05",
+    "prompt": "Define observability in production systems.",
+    "expected_citation": "kb-observability",
+    "required_output_terms": ["logs", "source:kb-observability"]
+  },
+  {
+    "id": "e06",
+    "prompt": "Why should secrets not be in source code?",
+    "expected_citation": "kb-secrets",
+    "required_output_terms": ["secrets", "source:kb-secrets"]
+  },
+  {
+    "id": "e07",
+    "prompt": "How does CI improve release confidence?",
+    "expected_citation": "kb-ci",
+    "required_output_terms": ["integration", "source:kb-ci"]
+  },
+  {
+    "id": "e08",
+    "prompt": "What does retrieval with citations improve?",
+    "expected_citation": "kb-retrieval",
+    "required_output_terms": ["retrieval", "source:kb-retrieval"]
+  },
+  {
+    "id": "e09",
+    "prompt": "What is a vertical slice in product delivery?",
+    "expected_citation": "kb-slices",
+    "required_output_terms": ["vertical", "source:kb-slices"]
+  },
+  {
+    "id": "e10",
+    "prompt": "What helps balance speed and reliability while shipping?",
+    "expected_citation": "kb-slices",
+    "required_output_terms": ["reliability", "source:kb-slices"]
+  }
+]

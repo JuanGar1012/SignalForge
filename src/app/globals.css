@@ -1,0 +1,62 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 55%, #ecfeff 100%);
+  color: #111827;
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 100%;
+  margin-top: 0.4rem;
+  margin-bottom: 0.9rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+}
+
+button {
+  border: 1px solid #0f172a;
+  border-radius: 8px;
+  padding: 0.55rem 0.8rem;
+  background: #0f172a;
+  color: white;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: white;
+  color: #0f172a;
+}
+
+a {
+  color: #0f172a;
+}
